@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_la_virgen">300dp</dimen>
+    <dimen name="toolbarAlto">75dp</dimen>
+    <dimen name="cardCornerRadius">4dp</dimen>
+    <dimen name="altoImagenViewHome">250dp</dimen>
+    <dimen name="tamaño_titulo">30sp</dimen>
+    <dimen name="margin_home_titulo">15dp</dimen>
+    <dimen name="tamaño_descripcion">15sp</dimen>
+    <dimen name="item_schedule_titulo">30sp</dimen>
+    <dimen name="item_schedule_ampm">20sp</dimen>
+    <dimen name="item_schedule_nombre_evento">20sp</dimen>
+    <dimen name="item_schedule_evento">20sp</dimen>
+
+
+</resources>

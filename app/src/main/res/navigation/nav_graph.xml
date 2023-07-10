@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navegation_home_fragment">
+    <fragment
+        android:id="@+id/navegation_home_fragment"
+        android:name="ui.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_scheduleFragment"
+            app:destination="@id/navegation_schedule_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navegation_gallery_fragment"
+        android:name="ui.fragments.GalleryFragment"
+        android:label="fragment_gallery"
+        tools:layout="@layout/fragment_gallery" >
+        <action
+            android:id="@+id/action_galleryFragment_to_singersFragment"
+            app:destination="@id/navegation_singers_fragment" />
+        <action
+            android:id="@+id/action_navegation_gallery_fragment_to_galleryDetailFragmentDialog"
+            app:destination="@id/galleryDetailFragmentDialog" />
+    </fragment>
+    <fragment
+        android:id="@+id/navegation_schedule_fragment"
+        android:name="ui.fragments.ScheduleFragment"
+        android:label="fragment_singers"
+        tools:layout="@layout/fragment_singers" >
+        <action
+            android:id="@+id/action_scheduleFragment_to_galleryFragment"
+            app:destination="@id/navegation_gallery_fragment" />
+        <action
+            android:id="@+id/action_navegation_schedule_fragment_to_scheduleDetailFragmentDialog"
+            app:destination="@id/scheduleDetailFragmentDialog" />
+    </fragment>
+    <fragment
+        android:id="@+id/navegation_singers_fragment"
+        android:name="ui.fragments.SingersFragment"
+        android:label="SingersFragment" >
+        <action
+            android:id="@+id/action_singersFragment_to_ubicationFragment"
+            app:destination="@id/navegation_datos_fragment" />
+        <action
+            android:id="@+id/action_navegation_singers_fragment_to_singersDetailFragmentDialog"
+            app:destination="@id/singersDetailFragmentDialog" />
+    </fragment>
+    <fragment
+        android:id="@+id/navegation_datos_fragment"
+        android:name="ui.fragments.UbicationFragment"
+        android:label="fragment_ubication"
+        tools:layout="@layout/fragment_ubication" >
+        <action
+            android:id="@+id/action_navegation_datos_fragment_to_ubicationDetailFragmentDialog"
+            app:destination="@id/ubicationDetailFragmentDialog" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/singersDetailFragmentDialog"
+        android:name="ui.fragments.SingersDetailDialogFragment"
+        android:label="SingersDetailFragmentDialog"
+        tools:layout="@layout/fragment_singers_detail_dialog"></dialog>
+    <dialog
+        android:id="@+id/scheduleDetailFragmentDialog"
+        android:name="ui.fragments.ScheduleDetailDialogFragment"
+        android:label="ScheduleDetailDialogFragment"
+        tools:layout="@layout/fragment_schedule_detail_dialog"></dialog>
+    <dialog
+        android:id="@+id/galleryDetailFragmentDialog"
+        android:name="ui.fragments.GalleryDetailDialogFragment"
+        android:label="GalleryDetailDialogFragment"
+        tools:layout="@layout/fragment_gallery_detail_dialog"></dialog>
+    <dialog
+        android:id="@+id/ubicationDetailFragmentDialog"
+        android:name="ui.fragments.UbicationDetailDialogFragment"
+        android:label="UbicationDetailDialogFragment"
+        tools:layout="@layout/fragment_ubication_detail_dialog"></dialog>
+</navigation>

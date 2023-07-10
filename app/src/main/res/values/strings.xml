@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">La Chula</string>
+    <string name="lema">Puritico Corazón</string>
+
+    <string name="inicio_titulo">Mi Cuate, conoce la Chula</string>
+    <string name="inicio_titulo_logo">Puritico Corazon!</string>
+    <string name="inicio_descripcion">La Chula es el sitio indicado para obtener la mejor experiencia de musica y entretenimiento de la ciudad </string>
+    <string name="inicio_por_que">¿Por qué asistir?</string>
+    <string name="inicio_respuesta">En la chula cuentas con dos ambientes diferentes: \n
+        \u0009 &#8226; rumba crossover \n
+        \u0009 &#8226; rumba urbana \n
+        Nuestros espacio se encuentran dotados con el mejor personal de servicio, el cual estara pendiente de cualquier peticion como cliente desde que realizas la reserva,
+        hasta el momento de ocupar una silla,cuenta con un extenso portafolio de bebidas y comida de tematica mexicana, cuenta con un gran repertorio de cantantes nacionales e internacionales para los diferentes gustos.
+        Ademas se cuenta con los mejores djs crossover de la ciudad y por ultimo sin ser menos importante cuentas con un gran cantidad de personal de seguridad para
+        que no tengas ningun inconveniente en tu experiencia</string>
+
+    <string name="inicio_fin">Animate a ser parte de nuestra familia!!</string>
+
+
+    <!-- descripcion de cada uno de los cantantes y algunos visitantes-->
+    <string name="nombre_fabian">Fabian, el Rey!!</string>
+    <string name="nombre_estrella">Estrella Paz</string>
+    <string name="nombre_joelvis">El puma Joelvis</string>
+    <string name="nombre_deivys">Deivys Chente </string>
+    <!-- de planta -->
+    <string name="descripcion_fabian">Este personaje tiene una personalidad sin igual, el cacorro favorito de muchos y muchas jajajaja sorry\nInterprete de musica de banda cuyo bozarron es incoparable </string>
+    <string name="descripcion_estrella">Esta mujer posee una actitud unica, interprete de los llantos, gritos, y despechadas de muchas mujeres con la musica de planchar, baladas y rancheras</string>
+    <string name="descripcion_deivys_chente">Deivys es aquel cantante que reencarna la voz sin igual de vicente fernandez y todas sus canciones que alguna vez nos hizo tomar unos buenos tequilitas </string>
+    <string name="descripcion_joelvis">interprete con una voz unica para el despecho y obvio cantares de musica de banda</string>
+    <!-- visitantes -->
+    <string name="descripcion_diego_a">Este maldito degenerado te hara beber mas de una botella con sus interpretaciones de musica popular</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

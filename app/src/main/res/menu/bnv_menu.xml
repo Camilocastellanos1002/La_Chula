@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navegation_home_fragment"
+        android:title="Inicio"
+        android:icon="@drawable/ic_home"></item>
+    <item
+        android:id="@+id/navegation_schedule_fragment"
+        android:title="Calendario"
+        android:icon="@drawable/ic_schedule"></item>
+    <!--
+        <item
+        android:id="@+id/navegation_menu_fragment"
+        android:title="Carta Menú"
+        android:icon="@drawable/ic_menu"></item>
+        -->
+    <item
+        android:id="@+id/navegation_gallery_fragment"
+        android:title="Galería"
+        android:icon="@drawable/ic_photo_library"></item>
+    <item
+        android:id="@+id/navegation_singers_fragment"
+        android:title="Artistas"
+        android:icon="@drawable/ic_singer"></item>
+    <item
+        android:id="@+id/navegation_datos_fragment"
+        android:title="Ubicación"
+        android:icon="@drawable/ic_map"></item>
+
+</menu>

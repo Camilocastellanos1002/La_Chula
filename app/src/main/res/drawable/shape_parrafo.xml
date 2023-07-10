@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:radius="10dp"></corners>
+    <!--<solid
+        android:color="@color/blanco"></solid>-->
+    <stroke
+        android:color="@color/colorAccent"
+        android:width="3dp"></stroke>
+</shape>
+
+    <!--
+    para llamar y utilizar este estilo se debe llamar en el elemento
+    como un background e ingresar el nombre de este archivo
+    -->

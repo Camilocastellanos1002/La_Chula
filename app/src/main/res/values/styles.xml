@@ -1,0 +1,37 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- este estilo sera para los dialogos de los eventos -->
+    <style name="pantallaCompletaDialogos" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowNoTitle">true</item> <!-- que no contenga titulo, ya que el toolbar es personalizado -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:windowFullscreen">false</item> <!-- que no se tome toda la pantalla-->
+        <item name="android:windowIsFloating">false</item>  <!-- no permita flotar sobre la pantalla-->
+        <item name="android:windowBackground">#FFFF</item> <!-- fondo blanco de los dialogos -->
+        <!-- animaciones entre pantallas-->
+        <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+        <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+    </style>
+
+</resources>
+    <!--
+    para eliminar la barra predeterminada que aparece al inicio de la app, la barra de accion se deben realizar los siguiente:
+
+    cambiar;
+
+    parent="Theme.AppCompat.Light.DarkActionBar"   .......por.......  parent="Theme.AppCompat.Light.NoActionBar"
+
+    agregar;
+
+    <item name="android:windowFullscreen">false</item>
+    <item name="android:windowNoTitle">true</item>
+    -->

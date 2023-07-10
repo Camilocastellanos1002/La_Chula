@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- alpha atenuar cualquier objeto-->
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:interpolator= "@android:anim/accelerate_interpolator"
+        android:duration="500"
+        android:repeatMode="reverse"
+        android:repeatCount="5"
+    ></alpha>
+    <scale
+        android:duration="500"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:repeatMode="reverse"
+        android:repeatCount="5"
+        android:toXScale="110%"
+        android:toYScale="110%"
+        android:fromXScale="100%"
+        android:fromYScale="100%"
+        ></scale>
+
+</set>
+
+    <!-- fromAlpha muestra desde que momento se realiza la transformacion 0.0 es transparente-->
+    <!-- toAlpha muestra hasta donde se realiza la transformacion de color, 1.0 es el color original-->
+    <!-- interpolator es la forma de implementar una interpolacion-->
+    <!-- duration este tributo se mide en milisegundos-->
+    <!--repeatCount, cantidad de repeticiones  -->
+
+    <!-- scale es una animacion de maximizacion y/o minimizacion -->
+    <!-- pivotX, pivotY que la imagen a utilizar se centre y haga la transformacion, que no se mueva del origen-->
+    <!-- -->
+    <!-- -->

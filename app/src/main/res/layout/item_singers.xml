@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/cardCornerRadius"
+    app:cardElevation="4dp"
+    android:layout_margin="5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/shape_parrafo">
+        <ImageView
+            android:id="@+id/ivcantante"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/altoImagenViewHome"
+            android:src="@drawable/fabin_cantante"
+            android:layout_margin="10dp">
+        </ImageView>
+        <TextView
+            android:id="@+id/tvnombrecantante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fabian Meza"
+            android:textStyle="bold"
+            android:textSize="@dimen/tamaño_titulo"
+            android:textColor="@color/colorAccent"
+            android:gravity="center_horizontal">
+        </TextView>
+        <TextView
+            android:id="@+id/tvtipodemusica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Musica de Banda"
+            android:textSize="@dimen/tamaño_descripcion"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal">
+        </TextView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

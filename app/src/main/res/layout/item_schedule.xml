@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <!--este item_schedule es para generar varias copias de un elemento -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="5dp">
+        <!--generar 2 layouts, uno para la hora y otro para el texto del evento-->
+        <!-- hora -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvItemScheduleDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="9/05/21"
+                android:gravity="right|bottom"
+                android:textSize="@dimen/item_schedule_titulo"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold">
+            </TextView>
+            <TextView
+                android:id="@+id/tvItemScheduleHour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="8 PM"
+                android:gravity="right|bottom"
+                android:textSize="@dimen/item_schedule_ampm"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_marginLeft="3dp">
+            <TextView
+                android:id="@+id/tvTituloEvento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Evento"
+                android:textStyle="bold"
+                android:textSize="@dimen/item_schedule_nombre_evento"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:ellipsize="end"
+                android:lines="1">
+            </TextView>
+            <TextView
+                android:id="@+id/tvItemScheduleDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Celebracion dia de las madres"
+                android:textSize="@dimen/item_schedule_nombre_evento"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:ellipsize="end"
+                android:lines="1">
+            </TextView>
+            <TextView
+                android:id="@+id/tvCantante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Artista: Fabian Meza "
+                android:textSize="@dimen/item_schedule_evento"
+                android:textColor="@color/colorPrimaryDark"
+                android:ellipsize="end"
+                android:lines="1">
+            </TextView>
+            <TextView
+                android:id="@+id/tvDisposicion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:textColor="@color/blanco"
+                android:textSize="20sp"
+                android:text="Disponible"
+                android:background="@drawable/shape_evento">
+            </TextView>
+            <!--
+             estas lineas son utilizadas para cuando el texto sea
+             demasiado largo, esta no deforme el textview si no que lo
+             reemplace al final por puntos suspendidos
+
+                android:ellipsize="end"
+                android:lines="1">
+            -->
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="1dp"></View>
+</LinearLayout>
+
+
+
